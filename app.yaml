@@ -1,0 +1,13 @@
+runtime: java11
+instance_class: F1
+env: standard
+
+handlers:
+  - url: /.*
+    script: this field is required, but ignored
+
+env_variables:
+  RAZORPAY_KEY: "rzp_test_QaGY0xAHGpKuS3"
+  RAZORPAY_SECRET: "pI9vAzsFAr4keFtpZ2wkFXvY"
+  ZOHO_CRM_API_URL: "https://www.zohoapis.com/crm/v2"
+  ZOHO_CRM_ACCESS_TOKEN: "1000.06562NTTW1ZJFZNMWNALJH5G3TQMRX"
